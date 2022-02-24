@@ -1,0 +1,9 @@
+<!--<ckeditor [editor]="Editor"  data="<p>Hello, world!</p>"></ckeditor>-->
+<ckeditor
+  [editor]="Editor"
+  [(ngModel)]="data"
+  (ready)="onReady($event)"
+  [config]="Config"
+  id="editor"
+></ckeditor>
+<p>nnnnnnnnnnnnnnnnnnnnnnnnnnnnn</p>
