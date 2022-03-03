@@ -6,6 +6,7 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CkeditorPageComponent } from './CKEditor/ckeditor-page/ckeditor-page.component';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { CkeditorPageComponent } from './CKEditor/ckeditor-page/ckeditor-page.co
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    CKEditorModule
+    CKEditorModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

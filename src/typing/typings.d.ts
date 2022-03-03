@@ -11,3 +11,6 @@ declare module '@ckeditor/ckeditor5-pagination' {
 
     export = Pagination;
 }
+
+
+
